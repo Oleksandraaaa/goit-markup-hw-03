@@ -93,7 +93,7 @@ img {
   margin-right: 50px;
 }
 .header-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 .header-link {
   font-weight: 500;
@@ -180,7 +180,6 @@ img {
 }
 /*------------------BENEFITS---------------- */
 .benefits {
-  background-color: var(--second-background-color);
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -194,6 +193,7 @@ img {
 }
 
 .benefits-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -206,7 +206,6 @@ img {
 }
 /*-----------------EXAMPLES-------------------*/
 .examples {
-  background-color: var(--second-background-color);
   display: flex;
   padding-bottom: 94px;
 }
@@ -253,8 +252,6 @@ img {
   font-size: 16px;
   line-height: 1.19;
   color: var(--second-title-color);
-  margin-top: 30px;
-  margin-bottom: 10px;
   text-align: center;
 }
 .team-text {
@@ -307,6 +304,7 @@ img {
 .projects {
   padding-top: 94px;
   padding-bottom: 94px;
+  border-top: 1px solid #ececec;
 }
 .projects-list {
   display: flex;
@@ -323,6 +321,10 @@ img {
   line-height: 1.62;
   text-align: center;
   color: var(--second-button-color);
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
 }
 .projects-button:hover,
 .projects-button:focus {
